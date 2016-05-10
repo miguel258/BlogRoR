@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+
+		  <title>Blog</title>
+		  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+		  <meta name="viewport" content="width=device-width, initial-scale=1">
+		  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+			integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+		  <link href='https://fonts.googleapis.com/css?family=Roboto:400,700,300' rel='stylesheet' type='text/css'>
+		  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+		  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+		  <%= csrf_meta_tags %>
+
+	</head>
+
+  <body>
+    	<div class="row" id="Navegador">
+      <div class="col-md-2 col-centered NameBlog"><%=  link_to "Miguel Blog", root_path %></div>
+			<div class="col-md-2 col-centered visible-xs-*"><%= link_to "Inicio", root_path %></div>
+		 	<div class="col-md-2 col-centered visible-xs-*"><%= link_to "Diseño", root_path %></div>
+		 	<div class="col-md-2 col-centered visible-xs-*"><%= link_to "Programacion", root_path %></div>
+		 	<div class="col-md-2 col-centered visible-xs-*"><%= link_to "Tecnologia", root_path %></div>
+	</div>
+
+
+
+  <%= yield %>
+ 	</body>
+
+		<footer class="pie">
+				All Rights Reserverd
+		</footer>
+
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"
+	 integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS"
+	 crossorigin="anonymous"></script>
+
+</html>

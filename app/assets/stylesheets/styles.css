@@ -1,0 +1,70 @@
+ html,body{
+	margin: 0px;
+	font-family: 'Roboto', sans-serif;
+}
+#Navegador {
+	background-color:#177ECC;
+}
+#Navegador div{
+	padding-right: 0px;
+	margin-right: 2px;
+	color: white;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+.no-margin{
+	margin: 0px;
+}
+.NameBlog{
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+
+}
+.row {
+    text-align:center;
+    margin: 0px;
+}
+.col-centered {
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:left;
+    /* inline-block space fix */
+    margin-right:-4px;
+}
+a:visited{
+	color: inherit;
+	text-decoration: none;
+}
+.field {
+	margin-top: 70px;
+	text-align: center;
+
+}
+/*Para formulario nuevo articulo*/
+.cuerpo{
+	margin-top: 20PX;
+	height: 150px;
+	width: 400px;
+}
+.titulo{
+	width: 400px;
+}
+.pie{
+	width:auto;
+	text-align: center;
+	color: white;
+	height: 50px;
+	background-color: #177ECC;
+	position:absolute;
+  bottom:0px;
+	font-size: 15px;
+	padding-left: 653.5px;
+	padding-right: 653.5px;;
+}
+
+.btn{
+	margin-top: 20px;
+
+}
